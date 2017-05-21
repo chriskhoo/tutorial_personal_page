@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+    background: url("http://iamdeepa.com/blog/wp-content/uploads/2011/04/matrix-770x615.png");
+    background-size: cover;
+    color: #E1E1E1;
+}
+
+img {
+    margin: 40px 0 0 0;
+    border-radius: 80px;
+    border: solid #B1B1B1 4px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+ul {
+    padding: 5px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+}
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+a{
+    color: #E1E1E1;
+}
+
+article{
+    padding: 20px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+    li {
+        display: block;
+        padding: 4px;
+    }
+}
